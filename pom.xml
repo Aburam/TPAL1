@@ -15,6 +15,11 @@
     <artifactId>api-java</artifactId>
 
 
+    <properties>
+        <jee.level>1.8</jee.level>
+        <jdk.level>1.8</jdk.level>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.opencsv</groupId>
