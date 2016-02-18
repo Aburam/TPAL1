@@ -108,20 +108,20 @@
                 <artifactId>maven-jxr-plugin</artifactId>
                 <version>2.3</version>
             </plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-changelog-plugin</artifactId>
                 <version>2.2</version>
-            </plugin>-->
+            </plugin>
 
         </plugins>
     </reporting>
 
-    <!--!<scm>
-        <connection>scm:git:file:///home/OpenCompare-master/org.opencompare/</connection>
-    </scm>-->
+    <scm>
+        <connection>scm:git:file:///home/OpenCompare-master/org.opencompare/api-java</connection>
+    </scm>
 
-    <!--<developers>
+    <developers>
         <developer>
             <name>Buron Baptiste</name>
             <email>baptiste.buron@gmail.com></email>
@@ -130,7 +130,7 @@
                 <role>developer</role>
             </roles>
         </developer>
-    </developers>-->
+    </developers>
 
 
 </project>
